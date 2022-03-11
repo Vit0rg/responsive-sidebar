@@ -13,7 +13,7 @@ Página autoral criada com base no design apresentado no vídeo [Responsive Side
 > Front end:
 HTML5 - Tags semântincas, Classes e Ids...
 CSS3 - Flexbox, Filters, Clamp, Var, Calc, Pseudo-elements, Combinators, Media Query...
-JS (ES5) - const, Selectors API, DOMTokenList... 
+JS (ES7) - const, Selectors API, DOMTokenList... 
 
 ### Autor:
 Vit0rg
@@ -21,4 +21,25 @@ Vit0rg
 ### Licença:
 [MIT](https://github.com/Vit0rg/responsive-sidebar/blob/main/LICENSE)
 
-**EN**
+**ENG** 
+# Sidebar responsive 
+## Modularized, responsive and keyboard-only friendly navigation bar
+
+### About the project: 
+Single Page application focused on implementing an animated navigation bar, with a variety of features, including theme switching. 
+Author's page created based on the design presented in the video [Responsive Side Navigation Bar in HTML CSS And Javascript | Dashboard Sidebar Menu](https://yputu.be/wEfaoAa99XY). 
+
+### Available in:
+[Github-page](https://vit0rg.github.io/responsive-sidebar/) 
+
+### Technologies used: 
+> Front end: 
+HTML5 - Semantic Tags, Classes and Ids... 
+CSS3 - Flexbox, Filters, Clamp, Var, Calc, Pseudo-elements, Combinators, Media Query... 
+JS (ES7) - const, API Selectors, DOMTokenList...
+
+### Author: 
+Vit0rg
+ 
+### License: 
+[MIT](https://github.com/Vit0rg/responsive-sidebar/blob/main/LICENSE)
