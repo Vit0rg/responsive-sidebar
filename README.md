@@ -4,7 +4,7 @@
 
 ### Sobre o projeto:
 Aplicação de Página Única focada na implementação de uma barra animada de navegação, com diversas funcionalidades, incluindo troca de tema.
-Página autoral criada com base no design apresentado no vídeo [Responsive Side Navigation Bar in HTML CSS And Javascript | Dashboard Sidebar Menu](https://yputu.be/wEfaoAa99XY).
+Página autoral criada com base no design apresentado no vídeo [Responsive Side Navigation Bar in HTML CSS And Javascript | Dashboard Sidebar Menu](https://youtu.be/wEfaoAa99XY).
 
 ### Disponível em:
 [Github-page](https://vit0rg.github.io/responsive-sidebar/)
@@ -27,7 +27,7 @@ Vit0rg
 
 ### About the project: 
 Single Page application focused on implementing an animated navigation bar, with a variety of features, including theme switching. 
-Author's page created based on the design presented in the video [Responsive Side Navigation Bar in HTML CSS And Javascript | Dashboard Sidebar Menu](https://yputu.be/wEfaoAa99XY). 
+Author's page created based on the design presented in the video [Responsive Side Navigation Bar in HTML CSS And Javascript | Dashboard Sidebar Menu](https://youtu.be/wEfaoAa99XY). 
 
 ### Available in:
 [Github-page](https://vit0rg.github.io/responsive-sidebar/) 
