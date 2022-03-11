@@ -19,7 +19,7 @@ JS (ES7) - const, Selectors API, DOMTokenList...
 Vit0rg
 
 ### Licença:
-[MIT](https://github.com/Vit0rg/responsive-sidebar/blob/main/LICENSE)
+[MIT](https://github.com/Vit0rg/responsive-sidebar/blob/master/LICENSE.md)
 
 **ENG** 
 # Sidebar responsive 
@@ -42,4 +42,4 @@ JS (ES7) - const, API Selectors, DOMTokenList...
 Vit0rg
  
 ### License: 
-[MIT](https://github.com/Vit0rg/responsive-sidebar/blob/main/LICENSE)
+[MIT](https://github.com/Vit0rg/responsive-sidebar/blob/master/LICENSE.md)
