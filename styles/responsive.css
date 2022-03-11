@@ -1,0 +1,28 @@
+@media screen and (max-width:710px)
+{
+
+  .collapse nav ul
+  {
+    justify-content: space-around;
+  }
+
+  .collapse nav ul li:first-of-type,
+  .collapse nav ul li:last-of-type
+  {
+    width: auto;
+  }
+
+  .collapse nav ul li:first-of-type,
+  .collapse nav ul li:last-of-type,
+  .collapse .expand-li ul li:last-of-type
+  {
+    width: calc(16px + 1.4rem);
+    height: calc(16px + 1.4rem);
+  }
+
+  .collapse nav ul li:first-of-type span,
+  .collapse nav ul li:last-of-type span
+  {
+    display: none;
+  }
+}

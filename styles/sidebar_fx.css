@@ -1,0 +1,98 @@
+/*Collapsed bar*/
+.collapse
+{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(var(--hue), 30%, 10%);
+}
+
+.collapse nav
+{
+  height: calc(16px + 3rem);
+  width: 100%;
+  padding: 0;
+  background-color: hsl(var(--hue), 30%, 15%);
+}
+
+.collapse nav ul
+{
+  width: 100%;
+  padding: 0 2%;
+  height: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collapse nav ul li
+{
+  display: none;
+}
+
+.collapse nav ul li:first-of-type
+{
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(var(--hue), 30%, 10%);
+}
+
+.collapse nav ul li:first-of-type span, .collapse nav ul li:last-of-type
+{
+  display: unset;
+}
+
+.collapse nav ul li:first-of-type:hover,
+  .collapse nav ul li:nth-of-type(2):hover,
+  .collapse nav ul li:last-of-type:hover
+{
+  background-color: hsl(var(--hue), 30%, 40%);
+}
+
+.collapse nav ul li:nth-of-type(2)
+{
+  height: 70%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(var(--hue), 40%, 10%);
+}
+
+.collapse nav ul li:nth-of-type(2) input
+{
+  width: 90%;
+  display: unset;
+}
+
+.collapse .expand-li ul li:last-of-type
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.collapse .expand-li ul li:last-of-type
+{
+  width: 20%;
+}
+
+/*Extended bar*/
+.expand-li
+{
+  height: 100vh;
+  width: calc(120px + 15rem);
+  transition: all 0.5s ease;
+}
+
+.expand-li ul li
+{
+  width: 95%;
+  box-shadow: .5vh .5vh hsl(var(--hue), 10%, 5%);
+}
+
+.expand-li ul li span, .expand-li ul li input
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,160 @@
+:root
+{
+  --hue: 245;
+}
+
+*, ::after, ::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: clamp(14px + 1vw, 2vw, 2vw + 1rem);
+}
+
+*:focus
+{
+  outline: solid 3px hsl(var(--hue), 100%, 100%);
+}
+
+.invert
+{
+  --hue: 60;
+  filter: invert();
+}
+
+body
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: hsl(var(--hue), 100%, 100%);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav
+{
+  height: 100%;
+  padding-top: 2%;
+  width: calc(40px + 2.5rem);
+  background-color: hsl(var(--hue), 30%, 10%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul
+{
+  height: clamp(20rem, 580px, 70vh);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s ease;
+}
+
+nav ul li
+{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsl(var(--hue), 25%, 20%);
+  border-radius: 2rem;
+}
+
+nav ul li:hover
+{
+  background-color: hsl(var(--hue), 25%, 30%);
+  border: .3vh hsl(var(--hue), 100%, 100%);
+}
+
+nav ul li:first-of-type
+{
+  background-color: hsl(var(--hue), 35%, 15%);
+}
+
+
+nav ul li:first-of-type:hover
+{
+  background-color: hsl(var(--hue), 35%, 30%);
+}
+
+nav ul li a
+{
+  width: calc(16px + 1.4rem);
+  height: calc(16px + 1.4rem);
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+  color: hsl(var(--hue), 100%, 100%);
+  background-color: hsl(var(--hue), 10%, 20%);
+  text-decoration: none;
+  border-radius: 2rem;
+  box-shadow: .5vh .5vh hsl(var(--hue), 10%, 5%);
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover
+{
+  width: calc(16px + 1.5rem);
+  height: calc(16px + 1.5rem);
+  filter: invert();
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+nav ul li span
+{
+  width: 80%;
+  text-align: center;
+  display: none;
+}
+
+nav ul li input
+{
+  height: 100%;
+  width: 80%;
+  text-align: center;
+  color: hsla(0, 100%, 100%, 100%);
+  background: none;
+  border-width: 0px;
+  border-radius: 2rem;
+  display: none;
+}
+
+nav ul li input:active
+{
+  border: solid 1px hsl(var(--hue), 100%, 100%);
+}
+
+main
+{
+  width: 100%;
+  padding: 2%;
+  background-color: hsl(var(--hue), 30%, 5%);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+main h1
+{
+  width: 100%;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  background-color: hsl(var(--hue), 30%, 10%);
+  color: hsl(var(--hue), 100%, 100%);
+  word-wrap: break-word;
+}
+
+main p
+{
+  padding: 2%;
+  background-color: hsl(var(--hue), 30%, 6%);
+}
