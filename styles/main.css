@@ -111,7 +111,7 @@ nav ul li span
 nav ul li input
 {
   height: 100%;
-  width: 90%;
+  width: 80%;
   text-align: center;
   color: hsla(var(--hue), 0%, 0%);
   background-color: hsl(var(--hue), 60%, 60%);
@@ -120,7 +120,7 @@ nav ul li input
   display: none;
 }
 
-nav ul li input:hover
+nav ul li:nth-of-type(2):hover, nav ul li input:hover 
 {
   background-color: hsl(var(--hue), 60%, 80%);
 }
